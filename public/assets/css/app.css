@@ -1,0 +1,353 @@
+/**
+.color1 { #bf3f78 };
+.color2 { #dd9bb9 };
+.color3 { #6c2444 };
+.color4 { #722648 };
+.color5 { #722648 };
+**/
+body {
+  background: url('../images/body-bg.jpg');
+}
+
+.hero-validate {
+  background: #F9F5EF;
+  padding: 6rem;
+}
+
+div:where(.swal2-container).swal2-center>.swal2-popup {
+  border-radius: 0 !important;
+}
+
+/*------------------------------------------*/
+/*  HEADERS
+/*------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.3;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h2.h2-xl {
+  font-size: 3.75rem;
+}
+
+/*------------------------------------------*/
+/*  Button Color
+/*------------------------------------------*/
+.btn {
+  border-radius: 0;
+  transition: ease 0.2s all;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.05rem;
+  padding: 15px 30px;
+}
+
+.btn-white,
+.white-color .btn-white {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff !important;
+}
+
+.btn-tra-grey,
+.white-color .btn-tra-grey {
+  color: #333;
+  background-color: transparent;
+  border-color: #ddd !important;
+}
+
+.btn-brown,
+.scroll .btn-brown,
+.white-color .btn-brown,
+.brown-hover:hover,
+.scroll .brown-hover:hover,
+.white-color .brown-hover:hover {
+  color: #fff !important;
+  background-color: #6f5e4d;
+  border-color: #6f5e4d !important;
+}
+
+.btn-red,
+.scroll .btn-red,
+.white-color .btn-red,
+.red-hover:hover,
+.scroll .red-hover:hover,
+.white-color .red-hover:hover {
+  color: #fff !important;
+  background-color: #e3000e;
+  border-color: #e3000e !important;
+}
+
+.btn-tra-red,
+.scroll .btn-tra-red,
+.white-color .btn-tra-red,
+.tra-red-hover:hover,
+.scroll .tra-red-hover:hover,
+.white-color .tra-redhover:hover {
+  color: #e3000e !important;
+  background-color: transparent;
+  border-color: #e3000e !important;
+}
+
+.btn-meat,
+.scroll .btn-meat,
+.white-color .btn-meat,
+.meat-hover:hover,
+.scroll .meat-hover:hover,
+.white-color .meat-hover:hover {
+  color: #fff !important;
+  background-color: #d2322b;
+  border-color: #d2322b !important;
+}
+
+.btn-tra-meat,
+.scroll .btn-tra-meat,
+.white-color .btn-tra-meat,
+.tra-meat-hover:hover,
+.scroll .tra-meat-hover:hover,
+.white-color .tra-meathover:hover {
+  color: #d2322b !important;
+  background-color: transparent;
+  border-color: #d2322b !important;
+}
+
+.btn-salmon,
+.scroll .btn-salmon,
+.white-color .btn-salmon,
+.salmon-hover:hover,
+.scroll .salmon-hover:hover,
+.white-color .salmon-hover:hover {
+  color: #fff !important;
+  background-color: #d54981;
+  border-color: #d54981 !important;
+}
+
+.btn-tra-salmon,
+.scroll .btn-tra-salmon,
+.white-color .btn-tra-salmon,
+.tra-salmon-hover:hover,
+.scroll .tra-salmon-hover:hover,
+.white-color .tra-salmonhover:hover {
+  color: #d54981 !important;
+  background-color: transparent;
+  border-color: #d54981 !important;
+}
+
+.btn-yellow,
+.scroll .btn-yellow,
+.white-color .btn-yellow,
+.yellow-hover:hover,
+.scroll .yellow-hover:hover,
+.white-color .yellow-hover:hover {
+  color: #333435 !important;
+  background-color: #f7be27;
+  border-color: #f7be27 !important;
+}
+
+/*------------------------------------------*/
+/*  Button Hover
+/*------------------------------------------*/
+
+.white-hover:hover,
+.white-color .white-hover:hover {
+  color: #333 !important;
+  background-color: #fff;
+  border-color: #fff !important;
+}
+
+.tra-white-hover:hover,
+.white-color .tra-white-hover:hover {
+  color: #fff !important;
+  background-color: transparent;
+  border-color: #fff !important;
+}
+
+.scroll .tra-white-hover:hover {
+  color: #333 !important;
+  background-color: transparent;
+  border-color: #333 !important;
+}
+
+/*------------------------------------------*/
+/*  Button Focus
+/*------------------------------------------*/
+
+.btn:focus {
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn.btn-black:focus {
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-tra-black:focus,
+.btn.btn-tra-grey:focus {
+  color: #333;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*------------------------------------------*/
+/*  Home Validation
+/*------------------------------------------*/
+
+.auth-form input.document {
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #222;
+  font-size: 3.05rem;
+  font-weight: 400;
+  padding: 0 14px;
+  box-shadow: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.auth-form form input {
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #222;
+  font-size: 1.05rem;
+  font-weight: 400;
+  padding: 0 14px;
+  box-shadow: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+
+#resumen-wrapper.d-block .btn-cart {
+  display: none;
+}
+
+.bg-categories,
+.bg-menu {
+  padding: 1.5rem;
+}
+
+.bg-categories {
+  background: url('../images/patron.png');
+  position: relative;
+}
+
+.bg-categories.history {
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #e6e6e6;
+}
+
+.auth-form {
+  padding: 3rem;
+  border-radius: 3rem;
+}
+
+
+.content-auth .btn-tabs {
+  font-size: 2rem;
+  font-weight: bolder;
+  right: 1rem;
+}
+
+.categoria-item .badge {
+  transition: ease all .4s;
+}
+
+.categoria-item:hover .badge {
+  background-color: #bf3f78 !important;
+  font-size: 1rem !important;
+  transition: ease all .3s;
+}
+
+.search-box .card-body {
+  background: #bf3f78;
+}
+
+.search-box .card-body input[type="search"] {
+  border-radius: 0 !important;
+}
+
+/*.btn-cart {
+    position: absolute;
+    right: 0;
+}*/
+
+.btn-cart #cart-counter {
+  background: #fa338c;
+  border-radius: 5rem;
+  font-size: 1rem;
+  top: -9px;
+}
+
+.logo-list {
+  position: absolute;
+  width: 100px;
+  top: 33px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/**
+  Categorias
+  **/
+
+#categoria-container .categoria-item,
+#categoria-container .productos-mostrar,
+#categoria-container .btn-back-view{
+  background: #f1f1f1;
+  transition: ease all .2s;
+}
+
+#categoria-container .categoria-item:hover,
+#categoria-container .productos-mostrar:hover,
+#categoria-container .btn-back-view:hover {
+  color: #fff;
+  background: #d54981;
+}
+
+#categoria-container .nav-item {
+  margin-right: 5px;
+}
+
+#categoria-container .nav-item:last-child {
+  margin-right: 0px;
+}
+
+/**
+  Cliente 
+  **/
+.btn-iced {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 50%;
+}
+.btn-iced.active {
+  background-color: #0077ff;
+  border-color: #0077ff;
+}

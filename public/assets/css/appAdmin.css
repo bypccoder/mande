@@ -1,0 +1,60 @@
+.card {
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+}
+.card-header {
+    background-color: var(--cui-white);    
+    margin-bottom: 0;
+    padding:1rem 1.25rem;
+}
+.card-header:first-child{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.table th {
+    color: #334155
+}
+.table th {
+    background-color: #f1f5f9;
+    border-bottom-width: 1px;
+    padding: .75rem 1.5rem
+}
+.table>:not(caption)>*>* {    
+    padding: .75rem 1.5rem;
+}
+.table-hover>tbody>tr:hover>* {
+    background-color: #f1f5f9;
+    color: #475569;
+}
+
+.dataTables_filter,.dataTables_length {
+    padding: 16px 24px
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding: 18px 25px!important
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    padding: 18px 25px!important;
+    text-align: right;
+    white-space: nowrap
+}
+
+/**
+  Combos
+  **/
+  #combo-container{
+    max-height: 450px;
+    overflow: auto;
+  }
+  #combo-container .item input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #cccfd4;
+  }

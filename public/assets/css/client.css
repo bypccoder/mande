@@ -1,0 +1,95 @@
+.menu-6-item {
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.menu-6-img, .menu-6-img img {
+    overflow: hidden;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.menu-6-txt {
+    overflow: hidden;
+    padding: 25px 20px;
+}
+.menu-6-price {
+    display: inline-block;
+    padding: 7px 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #8d3872;
+    color: #ffd9f2;
+}
+.menu-6-txt .add-to-cart-ui.disabled {    
+    background: #bcbcbc;
+}
+.menu-6-price h5{
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.add-to-cart-ui {
+    opacity: 1;    
+    display: inline-block;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+.menu-5-item:hover img, .menu-6-item:hover img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+.hover-overlay {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.hover-overlay img {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+    overflow: hidden;
+    -webkit-transition: transform 400ms;
+    -moz-transition: transform 400ms;
+    -o-transition: transform 400ms;
+    transition: transform 400ms;
+}
+.bg-tra-dark {
+    background-color: rgba(10, 10, 10, .4);
+}
+.menu-6-item .item-code {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}

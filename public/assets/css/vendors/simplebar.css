@@ -1,0 +1,13 @@
+.simplebar-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+.simplebar-content .nav-group-items .nav-link i{
+  font-size: 10px;
+  margin: 5px 10px 0 0;
+}
+
+/*# sourceMappingURL=simplebar.css.map */
